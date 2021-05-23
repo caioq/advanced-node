@@ -1,6 +1,11 @@
 // test: cmd to connect a client to this server: nc localhost 8000
 /*
-cmd nc (netcat): cmd for performing any operations in linux related to TCP, UDP or UNIX-domain-sockets.
+cmd nc (netcat): cmd for performing any operations in linux related to TCP, UDP or UNIX-domain-sockets. 
+- TCP, UDP are related to packet transfer. 
+- Transportation layer.
+- They are a session establishment protocol between client and server.
+- TCP is more secure, right order and reliable.
+- UDP is faster and more common to transfer media data. Does not guarantee receipt of data. Data are sent in a random order.
 */
 process.stdout.write('\u001B[2J\u001B[0;0f');
 
