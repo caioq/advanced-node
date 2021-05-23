@@ -1,4 +1,4 @@
-// test: to connect a client to this server use: nc localhost 8000
+// test: cmd to connect a client to this server: nc localhost 8000
 
 process.stdout.write('\u001B[2J\u001B[0;0f');
 
