@@ -1,5 +1,7 @@
 // test: cmd to connect a client to this server: nc localhost 8000
-
+/*
+cmd nc (netcat): cmd for performing any operations in linux related to TCP, UDP or UNIX-domain-sockets.
+*/
 process.stdout.write('\u001B[2J\u001B[0;0f');
 
 const server = require('net').createServer();
