@@ -14,4 +14,7 @@
 - Web 
   - HTTP
   - HTTPS
-
+  - Routes (Parsing URLs, Query strings)
+- Common Built-in Libraries
+  - Operating System
+  - File System
