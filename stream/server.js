@@ -17,6 +17,7 @@ server.on('request', (req, res) => {
 
   // load chunks of data -> limited memory consuming
   const src = fs.createReadStream('./big.file');
+  // src is readable stream, res is writable stream
   src.pipe(res);
 });
 
