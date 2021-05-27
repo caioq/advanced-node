@@ -32,4 +32,6 @@
 - Clusters
   - Load-balancing an HTTP Server
   - Broadcasting messages to all workers
+  - Zero downtime restart
+  - Shared state workaround (comments)
 
