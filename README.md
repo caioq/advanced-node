@@ -4,6 +4,7 @@
 - Event Loop
   - setImmediate, setTimeout, nextTick
 - Event Driven Architecture
+  - Callbacks, Promise and Async/Await
   - Events Emitter
   - Async Events
   - Sync Events
